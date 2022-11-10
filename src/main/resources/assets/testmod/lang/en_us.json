@@ -1,3 +1,7 @@
 {
-  "item.testmod.naquadah": "Naquadah"
+  "item.testmod.naquadah": "Naquadah",
+
+  "block.testmod.naquadah_block": "Naquadah Block",
+
+  "itemGroup.testtab": "Stargate Tutorial Tab"
 }

@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.thorad.testmod.block.TestBlocks;
 import net.thorad.testmod.item.TestItems;
 import org.slf4j.Logger;
 
@@ -27,8 +28,9 @@ public class TestMod
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-        TestItems.register(modEventBus);
 
+        TestItems.register(modEventBus);
+        TestBlocks.register(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
