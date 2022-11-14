@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "naquadah_ingot",
+  "key": {
+    "#": {
+      "item": "minecraft:naquadah_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:naquadah_ingot"
+  }
+}

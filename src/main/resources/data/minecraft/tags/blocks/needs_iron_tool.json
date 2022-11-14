@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "testmod:deepslate_naquadah_ore",
     "testmod:naquadah_block"
   ]
 }

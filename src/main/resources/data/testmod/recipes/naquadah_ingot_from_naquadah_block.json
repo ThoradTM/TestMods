@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "naquadah_ingot",
+  "ingredients": [
+    {
+      "item": "minecraft:naqudah_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:naqudah_ingot"
+  }
+}

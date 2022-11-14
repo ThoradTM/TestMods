@@ -13,6 +13,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -38,7 +39,6 @@ public class deepslateNaquadahOre extends Block
         this.registerDefaultState(this.defaultBlockState().setValue(LIT, Boolean.valueOf(false)));
     }
 
-
     public void attack(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer)
     {
         //sets action on left click
@@ -63,7 +63,6 @@ public class deepslateNaquadahOre extends Block
         if (pState.getValue(LIT)) {
             spawnParticles(pLevel, pPos);
         }
-
     }
 
     //When block is stepped on, call interact

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 400,
+  "experience": 2,
+  "group": "naquadah_ingot",
+  "ingredient": {
+    "item": "minecraft:deepslate_naquadah_ore"
+  },
+  "result": "minecraft:naquadah_ingot"
+}
