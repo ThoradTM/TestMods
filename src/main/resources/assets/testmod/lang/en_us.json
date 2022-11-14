@@ -1,7 +1,11 @@
 {
   "item.testmod.naquadah": "Naquadah",
   "item.testmod.eight_ball": "Eight Ball",
+
   "block.testmod.naquadah_block": "Naquadah Block",
+  "block.testmod.naquadah_ore_block": "Naquadah Ore Block",
+  "block.testmod.jump_block": "Jumpy Dirt Block",
+
 
   "itemGroup.testtab": "Stargate Tutorial Tab"
 }

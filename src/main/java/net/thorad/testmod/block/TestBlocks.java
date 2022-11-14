@@ -11,6 +11,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thorad.testmod.TestMod;
+import net.thorad.testmod.block.custom.bouncyDirtBlock;
+import net.thorad.testmod.block.custom.naquadahOreBlock;
 import net.thorad.testmod.item.ModCreativeModeTab;
 import net.thorad.testmod.item.TestItems;
 
@@ -25,6 +27,15 @@ public class TestBlocks
     public static final RegistryObject<Block> NAQUADAH_BLOCK = registerBlock("naquadah_block", () ->
             new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops().explosionResistance(10)),
             ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> JUMP_BLOCK = registerBlock("jump_block", () ->
+                    new bouncyDirtBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops().explosionResistance(10)),
+            ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> NAQUAQDAH_ORE_BLOCK = registerBlock("naquadah_ore_block", () ->
+                new naquadahOreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()
+                        .explosionResistance(10).lightLevel(state -> state.getValue(naquadahOreBlock.LIT) ? 15 : 0)),
+        ModCreativeModeTab.TEST_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)

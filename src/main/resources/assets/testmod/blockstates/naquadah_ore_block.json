@@ -1,0 +1,7 @@
+{
+  "variants":
+  {
+    "lit=false" : { "model":  "testmod:block/deepslate_naquadah_ore" },
+    "lit=true" : { "model":  "testmod:block/deepslate_naquadah_ore_lit"}
+  }
+}
