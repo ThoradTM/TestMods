@@ -12,12 +12,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thorad.testmod.TestMod;
 import net.thorad.testmod.block.custom.bouncyDirtBlock;
-import net.thorad.testmod.block.custom.naquadahOreBlock;
+import net.thorad.testmod.block.custom.deepslateNaquadahOre;
 import net.thorad.testmod.item.ModCreativeModeTab;
 import net.thorad.testmod.item.TestItems;
 
 import java.util.function.Supplier;
-import java.util.function.ToIntFunction;
 
 public class TestBlocks
 {
@@ -32,9 +31,9 @@ public class TestBlocks
                     new bouncyDirtBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops().explosionResistance(10)),
             ModCreativeModeTab.TEST_TAB);
 
-    public static final RegistryObject<Block> NAQUAQDAH_ORE_BLOCK = registerBlock("naquadah_ore_block", () ->
-                new naquadahOreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()
-                        .explosionResistance(10).lightLevel(state -> state.getValue(naquadahOreBlock.LIT) ? 15 : 0)),
+    public static final RegistryObject<Block> DEEPSLATE_NAQUAQDAH_ORE = registerBlock("deepslate_naquadah_ore", () ->
+                new deepslateNaquadahOre(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()
+                        .explosionResistance(10).lightLevel(state -> state.getValue(deepslateNaquadahOre.LIT) ? 3 : 0)),
         ModCreativeModeTab.TEST_TAB);
 
 
