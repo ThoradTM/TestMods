@@ -1,9 +1,11 @@
 {
-  "item.testmod.naquadah": "Naquadah",
+  "item.testmod.naquadah_nuggets": "Naquadah Nugget",
   "item.testmod.eight_ball": "Eight Ball",
+  "item.testmod.naquadah_ingot": "Naquadah Ingot",
+  "item.testmod.raw_naquadah": "Raw Naquadah",
 
   "block.testmod.naquadah_block": "Naquadah Block",
-  "block.testmod.naquadah_ore_block": "Naquadah Ore Block",
+  "block.testmod.deepslate_naquadah_ore": "Deepslate Naquadah Ore Block",
   "block.testmod.jump_block": "Jumpy Dirt Block",
 
 

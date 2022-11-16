@@ -8,7 +8,7 @@ public class ModCreativeModeTab
     public static final CreativeModeTab TEST_TAB = new CreativeModeTab("testtab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(TestItems.NAQUADAH.get());
+            return new ItemStack(TestItems.RAW_NAQUADAH.get());
         }
     };
 }

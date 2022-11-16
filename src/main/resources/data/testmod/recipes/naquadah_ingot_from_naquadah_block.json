@@ -3,11 +3,11 @@
   "group": "naquadah_ingot",
   "ingredients": [
     {
-      "item": "minecraft:naqudah_block"
+      "item": "testmod:naquadah_block"
     }
   ],
   "result": {
     "count": 9,
-    "item": "minecraft:naqudah_ingot"
+    "item": "testmod:naquadah_ingot"
   }
 }

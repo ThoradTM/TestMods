@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "testmod:naquadah_block"
+      "item": "testmod:naquadah_ingot"
     }
   },
   "result": {
-    "item": "testmod:naquadah_ingot"
+    "item": "testmod:naquadah_nugget"
   }
 }

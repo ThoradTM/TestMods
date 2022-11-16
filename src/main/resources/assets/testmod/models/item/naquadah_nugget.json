@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "testmod:item/naquadah"
+    "layer0": "testmod:item/naquadah_nugget"
   }
 }

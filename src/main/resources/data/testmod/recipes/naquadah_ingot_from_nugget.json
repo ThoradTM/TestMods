@@ -3,7 +3,7 @@
   "group": "naquadah_ingot",
   "key": {
     "#": {
-      "item": "minecraft:naquadah_nugget"
+      "item": "testmod:naquadah_nugget"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:naquadah_ingot"
+    "item": "testmod:naquadah_ingot"
   }
 }

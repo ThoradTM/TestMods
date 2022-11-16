@@ -4,7 +4,7 @@
   "experience": 2,
   "group": "naquadah_ingot",
   "ingredient": {
-    "item": "minecraft:deepslate_naquadah_ore"
+    "item": "testmod:deepslate_naquadah_ore"
   },
-  "result": "minecraft:naquadah_ingot"
+  "result": "testmod:naquadah_ingot"
 }

@@ -2,9 +2,9 @@
   "type": "minecraft:blasting",
   "cookingtime": 200,
   "experience": 2,
-  "group": "naqudah_ingot",
+  "group": "naquadah_ingot",
   "ingredient": {
-    "item": "minecraft:raw_naqudah"
+    "item": "testmod:raw_naquadah"
   },
-  "result": "minecraft:naquadah_ingot"
+  "result": "testmod:naquadah_ingot"
 }

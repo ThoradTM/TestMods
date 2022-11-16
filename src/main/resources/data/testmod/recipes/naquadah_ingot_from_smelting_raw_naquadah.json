@@ -4,7 +4,7 @@
   "experience": 2,
   "group": "naquadah_ingot",
   "ingredient": {
-    "item": "minecraft:naquadah_iron"
+    "item": "testmod:raw_naquadah"
   },
-  "result": "minecraft:naquadah_ingot"
+  "result": "testmod:naquadah_ingot"
 }
